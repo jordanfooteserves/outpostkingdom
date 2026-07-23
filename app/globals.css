@@ -1,0 +1,34 @@
+/* Base styles. Rebrand a project by changing the variables below. */
+:root{
+  --brand:#6d8992;      /* primary brand color */
+  --brand-dark:#4f6a73;
+  --bg:#f4f3ef;
+  --card:#ffffff;
+  --ink:#2c3a40;
+  --muted:#74868c;
+  --line:#e5e6e3;
+  --ok:#4f8f74;
+}
+*{box-sizing:border-box;margin:0;padding:0}
+html,body{height:100%}
+body{
+  font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+  background:var(--bg);color:var(--ink);line-height:1.55;
+  display:flex;align-items:flex-start;justify-content:center;padding:40px 16px;
+}
+.wrap{width:100%;max-width:640px}
+.card{background:var(--card);border:1px solid var(--line);border-radius:18px;padding:26px;margin-bottom:16px;box-shadow:0 6px 20px rgba(60,80,88,.06)}
+h1{font-size:26px;color:var(--brand-dark);margin-bottom:6px}
+.sub{color:var(--muted);font-size:14px;margin-bottom:4px}
+h2{font-size:14px;text-transform:uppercase;letter-spacing:1px;color:var(--muted);margin:0 0 12px}
+ul{list-style:none}
+.check{display:flex;gap:10px;padding:9px 0;border-bottom:1px solid var(--line);font-size:14px}
+.check:last-child{border-bottom:none}
+.check .box{color:var(--brand);font-weight:700}
+code{background:#eef1ee;border:1px solid var(--line);border-radius:6px;padding:1px 6px;font-family:ui-monospace,SFMono-Regular,Menlo,monospace;font-size:13px;color:var(--brand-dark)}
+.status{display:inline-flex;align-items:center;gap:8px;font-size:13px;font-weight:600;padding:6px 12px;border-radius:20px;background:#eef1ee;color:var(--muted)}
+.status.live{background:#e4efe9;color:var(--ok)}
+.dot{width:8px;height:8px;border-radius:50%;background:currentColor}
+.items{margin-top:12px;font-size:14px}
+.items li{padding:6px 0;border-bottom:1px solid var(--line);list-style:none}
+.foot{font-size:12px;color:var(--muted);text-align:center}
