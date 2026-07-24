@@ -32,3 +32,31 @@ code{background:#eef1ee;border:1px solid var(--line);border-radius:6px;padding:1
 .items{margin-top:12px;font-size:14px}
 .items li{padding:6px 0;border-bottom:1px solid var(--line);list-style:none}
 .foot{font-size:12px;color:var(--muted);text-align:center}
+
+/* --- Outpost Kingdom hub + spoke pages --- */
+:root{ --green:#2E5D4B; --green-dark:#25493b; --gold:#C8A24B; }
+.lead{color:var(--muted);font-size:16px;margin-top:8px}
+.hero h1{font-size:30px}
+.hero.green h1{color:var(--green)}
+.crumb{margin:0 0 8px}
+.crumb a{color:var(--muted);text-decoration:none;font-size:13px}
+.spoke{display:block;background:var(--card);border:1px solid var(--line);border-radius:18px;padding:22px 26px;margin-bottom:16px;text-decoration:none;color:var(--ink);box-shadow:0 6px 20px rgba(60,80,88,.06);transition:transform .12s ease, box-shadow .12s ease}
+.spoke:hover{transform:translateY(-2px);box-shadow:0 10px 26px rgba(60,80,88,.10)}
+.spoke-title{font-size:20px;text-transform:none;letter-spacing:0;color:var(--brand-dark);margin-bottom:6px}
+.btn{display:inline-block;background:var(--green);color:#fff;border:0;border-radius:10px;padding:12px 22px;font-weight:700;text-decoration:none;cursor:pointer;font-size:15px}
+.btn:hover{background:var(--green-dark)}
+.btn-gold{background:var(--gold);color:#3a2f12;margin-top:14px}
+.btn-gold:hover{background:#b8933f}
+.videowrap{position:relative;padding-top:56.25%;border-radius:12px;overflow:hidden;border:1px solid var(--line);margin:6px 0 10px}
+.videowrap iframe{position:absolute;inset:0;width:100%;height:100%;border:0}
+.credit{font-size:12px;color:var(--muted)}
+.muted2{color:var(--muted);font-size:14px;margin-bottom:10px}
+.pill{display:inline-block;background:#eef1ee;color:var(--muted);border-radius:20px;padding:3px 10px;font-size:12px;font-weight:600;white-space:nowrap}
+.formrow{display:flex;flex-wrap:wrap;gap:10px;margin-top:12px}
+.kitform input{flex:1 1 180px;padding:12px 13px;border:1px solid var(--line);border-radius:10px;font-size:15px;font-family:inherit;background:#fff}
+.fine{font-size:12px;color:var(--muted);margin-top:10px}
+.routines{margin-top:6px}
+.routines li{padding:11px 0;border-bottom:1px solid var(--line);font-size:15px;display:flex;justify-content:space-between;align-items:center;gap:12px}
+.routines li:last-child{border-bottom:none}
+.formkit-alert{list-style:none;margin:0 0 10px;padding:0;color:#c0492f;font-size:14px}
+.formkit-alert:empty{display:none}
