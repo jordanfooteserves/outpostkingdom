@@ -19,7 +19,7 @@ export default function PeaceOverThePutt() {
         <p className="muted2">Before you go further — a word from Graham Cooke on who you already are.</p>
         <div className="videowrap">
           <iframe
-            src="https://www.youtube-nocookie.com/embed/FgzXXKjaPZA"
+            src="https://www.youtube-nocookie.com/embed/FgzXXKjaPZA?start=70"
             title="The Inheritance — Graham Cooke"
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
             allowFullScreen
