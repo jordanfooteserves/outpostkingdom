@@ -1,7 +1,7 @@
 'use client';
 import Script from 'next/script';
 
-const GUMROAD_URL = 'REPLACE_WITH_GUMROAD_LINK';
+const GUMROAD_URL = 'https://cafefeliz.gumroad.com/l/peaceovertheputt';
 
 export default function PeaceOverThePutt() {
   return (
