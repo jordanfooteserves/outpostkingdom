@@ -14,3 +14,6 @@
 .DS_Store
 *.log
 npm-debug.log*
+
+# Paid product PDFs — keep out of the repo
+product-files/

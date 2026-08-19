@@ -30,6 +30,11 @@ export default function Home() {
         <h2 className="spoke-title">Tapping Routines</h2>
         <p>A simple body-and-mind tool for calm, confidence, and more.</p>
       </a>
+
+      <a className="spoke" href="/truth-encounter">
+        <h2 className="spoke-title">Truth Encounter</h2>
+        <p>A former Catholic priest&rsquo;s honest look at Catholic teaching and the Bible. Read free, or get the book.</p>
+      </a>
     </div>
   );
 }
