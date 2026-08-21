@@ -1,7 +1,7 @@
 'use client';
 import Script from 'next/script';
 
-const GUMROAD_URL = 'https://cafefeliz.gumroad.com/l/peaceovertheputt';
+const GUMROAD_URL = 'https://outpostkingdom.gumroad.com/l/peaceovertheputt';
 
 export default function PeaceOverThePutt() {
   return (
@@ -11,7 +11,7 @@ export default function PeaceOverThePutt() {
       <div className="card hero green">
         <h1>Peace Over the Putt</h1>
         <p className="lead">Changing what runs through your mind over the ball — a faith-rooted guide to freedom from the fear, doubt, and self-talk that sabotage your stroke.</p>
-        <a className="btn btn-gold" href={GUMROAD_URL}>Get the workbook — $18</a>
+        <a className="btn btn-gold" href={GUMROAD_URL}>Get the workbook — $27</a>
       </div>
 
       <div className="card">
